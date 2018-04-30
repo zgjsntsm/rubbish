@@ -13,5 +13,5 @@ conn = pymysql.connect(
 )
 cursor = conn.cursor()
 
-cursor.execute("INSERT INTO `pi_info`.`ds18b20`(`test`) VALUES ('test')")
+cursor.execute("INSERT INTO `pi_info`.`ds18b20`(`time`,`temp`) VALUES (NOW(),'23.6')")
 conn.commit()

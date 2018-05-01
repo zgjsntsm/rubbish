@@ -31,7 +31,7 @@ def text(url):
 
 i = 1
 url1 = "https://v1.hitokoto.cn/?encode=text&charset=utf-8"
-url2 = "https://api.lwl12.com/hitokoto/v1"
+url2 = "http://yinshi.api.shkong.cc/mixture/full"
 while 1:
     # map = text(url1)
     # if map == '0':
